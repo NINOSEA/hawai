@@ -4,19 +4,20 @@
 public interface TimeScheduleInterface {
   //TimeSchedule( void );
 
-  public abstract void searchStation();
-  public abstract void getStation();
-  public abstract void putStation();
+  // 成功時にture, 失敗時にfalseを返す
+  public abstract boolean searchStation();
+  public abstract boolean getStation();
+  public abstract boolean putStation();
 
-  public abstract void searchLine();
-  public abstract void getLine();
-  public abstract void putLine();
+  public abstract boolean searchLine();
+  public abstract boolean getLine();
+  public abstract boolean putLine();
 
-  public abstract void searchDirection();
-  public abstract void getDirection();
-  public abstract void putDirection();
+  public abstract boolean searchDirection();
+  public abstract boolean getDirection();
+  public abstract boolean putDirection();
 
-  public abstract void getTimeSchedule();
-  public abstract void storeDBTimeSchedule();
+  public abstract boolean getTimeSchedule();
+  public abstract boolean storeDBTimeSchedule();
 }
 
