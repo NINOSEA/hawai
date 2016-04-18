@@ -12,8 +12,8 @@ public interface TimeScheduleInterface {
 
   // 成功時にture, 失敗時にfalseを返す
   public abstract boolean searchStation();
-  public abstract boolean getStation();
-  public abstract boolean putStation();
+  public abstract boolean getStation( String[] str, Matcher m );
+  public abstract List<String> extractStation( String[] str, Matcher m );
 
   public abstract boolean searchLine();
   public abstract boolean getLine();
