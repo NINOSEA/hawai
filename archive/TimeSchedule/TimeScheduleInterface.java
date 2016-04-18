@@ -1,6 +1,12 @@
 //TimeSchedule.java
 //2016-04-18
 
+import java.net.*;
+import java.io.*;
+import java.util.*;
+import java.util.regex.Pattern;
+import java.util.regex.Matcher;
+
 public interface TimeScheduleInterface {
   //TimeSchedule( void );
 
