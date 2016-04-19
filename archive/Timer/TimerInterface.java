@@ -1,6 +1,8 @@
 //TimerInterface.java
 //2016-04-18
 
+package Timer;
+
 public interface TimerInterface{
 
 	public abstract boolean setTimer( int targetTime, int TimeAgo );
